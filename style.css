@@ -275,6 +275,8 @@ body {
 
     .principal__home {
         text-align: center;
+        margin: 3%;
+        font-size: 0.8rem;
     }
 
     .principal__contato {
@@ -285,6 +287,10 @@ body {
         width: auto;
         max-width: 100%;
         height: auto;
+    }
+
+    .principal__contato__botao {
+        margin-bottom: 30px;
     }
 
     .rodape {
