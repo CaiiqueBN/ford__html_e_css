@@ -36,6 +36,7 @@ body {
     list-style: none;
     margin: 0 12.4% 0 0;
     gap: 2%;
+    flex-flow: row wrap;
 }
 
 .cabecalho__menu__link a {
@@ -178,6 +179,7 @@ body {
     flex-direction: column;
     font-size: 1.25rem;
     font-family: "Miranda Sans", sans-serif;
+    gap: 2px;
 }
 
 .principal__contato__botao {
@@ -263,14 +265,25 @@ body {
 
 
 @media (max-width: 850px) {
+    .cabecalho {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .cabecalho img {
+        width: 150px;
+        height: auto;
+    }
+
     .cabecalho__menu {
         margin: 0;
         gap: 4%;
+        flex-flow: row wrap;
     }
 
     .cabecalho a {
         font-size: 1.1rem;
-        margin: 0;
     }
 
     .principal__home {
