@@ -5,6 +5,10 @@
     padding: 0;
 }
 
+html {
+    overflow-y: scroll; 
+}
+
 body {
     min-height: 100vh;
     box-sizing: border-box;
@@ -12,12 +16,11 @@ body {
     flex-direction: column;
 }
 
-
-
 .cabecalho {
     display: flex;
     align-items: center;
     margin: 1%;
+    
 }
 
 .cabecalho img {
